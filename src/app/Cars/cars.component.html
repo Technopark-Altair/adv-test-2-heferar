@@ -1,0 +1,7 @@
+<div *ngFor="let car of cars">
+    <app-car [carInput]="car"></app-car>
+</div>
+<div>
+    <h1>Add new car</h1>
+    <app-add-car  (addedNewCar)="addNewCar($event)"></app-add-car>
+</div>
