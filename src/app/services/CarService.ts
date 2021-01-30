@@ -10,4 +10,4 @@ export class CarService {
     {id: 2,brandName: 'BAZ',modelName: 'PATRIOT',priceInRub: 110000},
     {id: 3,brandName: 'ZIGULI',modelName: '10',priceInRub: 100000},
   
-  ];
+]};
